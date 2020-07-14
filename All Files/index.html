@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Tiago Alves de Farias (@phewrys)">
+    <meta name="keywords" content="phewrys,tiago alves,thiago alves,tiago alves de farias,freelancer,front,end">
+    <meta name="description" content="Project - Coffee Shop">
+
+    <!-- Fonts -->
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="imgs\favicon.ico" />
+
+    <!-- Title -->
+    <title>Coffee Shop</title>
+</head>
+
+<body>
+    <section id="header" class="mb-0 pb-0">
+        <div class="container">
+            <div class="row">
+                <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+                    <div id="divLogo" class="container"><a href="index.html">
+                        <div id="logo"><img id="imgLogo" class="card-img-top" src="imgs\logo.svg" alt="Imagem da logo"><br />
+                            <span id="spanLogo">&nbsp;Coffee Shop</span></div></a>
+                        <div id="top"></div>
+                        <button id="button" class="navbar-toggler" type="button"
+                            data-toggle="collapse" data-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"><i class="fa fa-navicon"></i></span>
+                        </button>
+                        
+                        <div menuShow class="collapse navbar-collapse menu"
+                            id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                                <li class="nav-item">
+                                    <a z class="nav-link" href="#top">HOME <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#about">ABOUT</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#types">TYPES OF COFFEE</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#contact">CONTACT</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <section id="home">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+            </ol>
+            <div class="carousel-inner align-itens-center">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="imgs\coffee-shop-1081713_1920.jpg" alt="First Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imgs\coffee-shop-1149155_1920.jpg" alt="Second Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imgs\bar-401546_1920.jpg" alt="Third Slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imgs\bar-768564_1920.jpg" alt="fourth Slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About</h2>
+        <p class="text-justify px-5 mx-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <div class="container-fluid pb-4">
+            <div class="row d-flex flex-row px-4 mx-4">
+                <div class="no-padding col-lg-4 col-md-12 col-xs-12">
+                    <h3><strong>Missão</strong></h3>
+                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
+                <div class="no-padding col-lg-4 col-md-12 col-xs-12">
+                    <h3><strong>Visão</strong></h3>
+                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
+                <div class="no-padding col-lg-4 col-md-12 col-xs-12">
+                    <h3><strong>Valores</strong></h3>
+                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                </div>
+            </div>
+    </section>
+
+    <section id="types" class="container">
+        <h2 class="mb-0 pb-0">Types of Coffee</h2>
+        <p class="text-center pt-0"><a target="_blank"
+                href="https://www.selecoes.com.br/sabor-de-casa/conheca-21-tipos-de-cafe-e-aprenda-a-faze-los-em-casa/6/"><small
+                    class="text-muted">Fonte: www.selecoes.com.br</small></a></p>
+        <div class="card-columns tPai">
+            <div class="card row-md-3 row-sm-6">
+                <img class="card-img-top" src="imgs\types\expresso.PNG" alt="Imagem de capa do card Expresso">
+                <p class="card-text text-right pr-2 mb-0"><small class="text-muted">Fonte: YakubovAlim/iStock</small>
+                </p>
+                <div class="card-body">
+                    <h3 class="card-title"><strong>Expresso</strong></h3>
+                    <p class="card-text text-sm mb-0 text-justify">O café expresso é preparado com os mesmos grãos de
+                        café tradicional. A única diferença é o modo de preparo: através de água quente sob pressão, o
+                        que demanda uma máquina específica de preparo. Prepare o café expresso com 7 ou 9 g de pó de
+                        café com água quente a 90ºC.</p>
+                    <details close="">
+                        <summary><span class="negrito">Ler mais:</span></summary><br>C#, Git, SQL Server,
+                        .NET Framework, ASP.NET MVC 5, Scrum, DevOps, HTML5, CSS, JavaScript, Bootstrap...<p></p>
+                    </details>
+                </div>
+            </div>
+            <div class="card row-md-3 row-sm-6">
+                <img class="card-img-top" src="imgs\types\americano.PNG" alt="Imagem de capa do card Americano">
+                <p class="card-text text-right pr-2 mb-0"><small class="text-muted">Fonte:
+                        pamela_d_mcadams/iStock</small></p>
+                <div class="card-body">
+                    <h3 class="card-title"><strong>Americano</strong></h3>
+                    <p class="card-text text-sm mb-0 text-justify">O café americano é um tipo de café mais fraco que
+                        leva uma quantidade de água misturada ao café. É basicamente um expresso, só que com mais água.
+                    </p>
+                    <p class="card-text text-sm mb-0 text-justify">Use a mesma quantidade de pó de café moído dos grãos
+                        utilizada para fazer o expresso, de 7 a 9 g. Com 20 g de pó, é possível fazer um americano
+                        duplo. Ferva água em um bule e despeje a quantidade que você deseja em uma xícara.</p>
+                    <p class="card-text text-sm mb-0 text-justify">Em seguida, despeje o café expresso na xícara.
+                        Depois, é só servir. Cuidado: despejar o café expresso na xícara antes da água fervente pode
+                        alterar a cremosidade da bebida.</p>
+                </div>
+            </div>
+            <div class="card row-md-3 row-sm-6">
+                <img class="card-img-top" src="imgs\types\latte_macchiato.PNG" alt="Imagem de capa do card Latte Macchiato">
+                <p class="card-text text-right pr-2 mb-0"><small class="text-muted">Fonte: YelenaYemchuk/iStock</small>
+                </p>
+                <div class="card-body">
+                    <h3 class="card-title"><strong>Latte Macchiato</strong></h3>
+                    <p class="card-text text-sm mb-0 text-justify">“Latte macchiato”, em italiano, significa “leite
+                        manchado”. Já dá para saber do que se trata, não é?</p>
+                    <p class="card-text text-sm mb-0 text-justify">O latte macchiato é basicamente um café expresso com
+                        uma camada de espuma de leite. Se você não tiver uma máquina específica para criar a espuma do
+                        leite, é possível utilizar chantilly já pronto, mas você também pode adicionar 1/4 de leite
+                        integral a um recipiente de vidro com tampa e agite bem até formar a espuma. Leve ao micro-ondas
+                        em seguida por 30 segundos. Adicione, então, o leite à xícara de café expresso para criar o
+                        latte macchiato.</p>
+                </div>
+            </div>
+            <div class="card row-md-3 row-sm-6">
+                <img class="card-img-top" src="imgs\types\expresso_duplo.PNG" alt="Imagem de capa do card Doble (ou expresso duplo)">
+                <p class="card-text text-right pr-2 mb-0"><small class="text-muted">Fonte: YelenaYemchuk/iStock</small>
+                </p>
+                <div class="card-body">
+                    <h3 class="card-title"><strong>Doble (ou expresso duplo)</strong></h3>
+                    <p class="card-text text-sm mb-0 text-justify">O nome já diz tudo, não é? Se você gosta do expresso,
+                        adicione outra xícara para criar o expresso duplo, ou doble, que geralmente chega a 250 ml de
+                        café.</p>
+                </div>
+            </div>
+            <div class="card row-md-3 row-sm-6">
+                <img class="card-img-top" src="imgs\types\cafe_leite.PNG" alt="Imagem de capa do card Café com leite">
+                <p class="card-text text-right pr-2 mb-0"><small class="text-muted">Fonte: Anna Voss/Unsplash</small>
+                </p>
+                <div class="card-body">
+                    <h3 class="card-title"><strong>Café com leite</strong></h3>
+                    <p class="card-text text-sm mb-0 text-justify">Este é um velho conhecido dos brasileiros. Você deve
+                        ter crescido tomando café com leite todos os dias, não é? Basta adicionar uma quantidade de
+                        leite e café na mesma medida para criar essa bebida muito tradicional por aqui.</p>
+                </div>
+            </div>
+            <div class="card row-md-3 row-sm-6">
+                <img class="card-img-top" src="imgs\types\cafe_cortado.PNG" alt="Imagem de capa do card Café cortado">
+                <p class="card-text text-right pr-2 mb-0"><small class="text-muted">Fonte: Preston Goff/Unsplash</small>
+                </p>
+                <div class="card-body">
+                    <h3 class="card-title"><strong>Café cortado</strong></h3>
+                    <p class="card-text text-sm mb-0 text-justify">Mas é possível variar as quantidades de leite ou café
+                        para criar outros tipos a partir do café com leite. O café cortado, por exemplo, é basicamente
+                        uma quantidade 1/2 maior de café misturada a uma quantidade menor de leite.</p>
+                </div>
+            </div>
+            <div class="card row-md-3 row-sm-6">
+                <img class="card-img-top" src="imgs\types\cafe_lagrima.PNG" alt="Imagem de capa do card Café lágrima">
+                <p class="card-text text-right pr-2 mb-0"><small class="text-muted">Fonte: Photo by Brigitte Tohm on
+                        Unsplash</small></p>
+                <div class="card-body">
+                    <h3 class="card-title"><strong>Café lágrima</strong></h3>
+                    <p class="card-text text-sm mb-0 text-justify">Já o café lágrima é o oposto do cortado: a quantidade
+                        de leite é maior que a de café. Meça dois dedos de café expresso em uma xícara de 300 ml e
+                        preencha o restante com leite quente. Também pode ser servido com espuma.</p>
+                </div>
+            </div>
+            <div class="card row-md-3 row-sm-6">
+                <img class="card-img-top" src="imgs\types\caribenho.PNG" alt="Imagem de capa do card Caribenho">
+                <p class="card-text text-right pr-2 mb-0"><small class="text-muted">Fonte: Mauro/Unsplash</small></p>
+                <div class="card-body">
+                    <h3 class="card-title"><strong>Caribenho</strong></h3>
+                    <p class="card-text text-sm mb-0 text-justify">O café caribenho pode ser considerado um drink, já
+                        que leva rum em sua composição. Algumas receitas podem adicionar Martíni também, mas a original
+                        leva apenas rum e açúcar.</p>
+                    <p class="card-text text-sm mb-0 text-justify">Pegue duas xícaras de café expresso comum e uma dose
+                        de rum. Rale uma barra de chocolate e reserve as lascas. Misture o rum com as xícaras de
+                        expresso e adicione uma colher (chá) de açúcar ou uma quantidade equivalente de adoçante.</p>
+                    <p class="card-text text-sm mb-0 text-justify">Em seguida, se preferir, coloque chantilly por cima e
+                        salpique com as lascas de chocolate. Para ficar mais bonito, você pode servir em uma taça de
+                        drink ou em uma xícara comum mesmo.</p>
+                </div>
+            </div>
+            <div class="card row-md-3 row-sm-6">
+                <img class="card-img-top" src="imgs\types\capuccino.PNG" alt="Imagem de capa do card Capuccino">
+                <p class="card-text text-right pr-2 mb-0"><small class="text-muted">Fonte: Kuzmik_A/iStock</small></p>
+                <div class="card-body">
+                    <h3 class="card-title"><strong>Capuccino</strong></h3>
+                    <p class="card-text text-sm mb-0 text-justify">O cacppuccino é o “tradicional italiano”, como muitos
+                        o chamam. Misture os seguintes ingredientes em um recipiente fechado:</p>
+                    <p class="card-text text-sm mb-0 text-justify">
+                    <ul class="pl-4">
+                        <li>50 g de pó de café solúvel;</li>
+                        <li>250 g de leite em pó;</li>
+                        <li>3 colheres (sopa) de chocolate em pó;</li>
+                        <li>1 colher (chá) de canela em pó;</li>
+                        <li>250 g de açúcar ou adoçante a gosto;</li>
+                        <li>1 colher (chá) de bicarbonato de sódio para dar consistência.</li>
+                    </ul>
+                    </p>
+                    <p class="card-text text-sm mb-0 text-justify">Você também pode usar o liquidificador para bater os
+                        ingredientes. Bata por 30 segundos até obter a mistura e sirva em copos ou xícaras. Adicione
+                        chantilly ou espuma de leite para dar mais sabor, se preferir.</p>
+                </div>
+            </div>
+            <div class="card row-md-3 row-sm-6">
+                <img class="card-img-top" src="imgs\types\irlandes.PNG" alt="Imagem de capa do card Irlandês">
+                <p class="card-text text-right pr-2 mb-0"><small class="text-muted">Fonte: valstudio/iStock</small></p>
+                <div class="card-body">
+                    <h3 class="card-title"><strong>Irlandês</strong></h3>
+                    <p class="card-text text-sm mb-0 text-justify">O café irlandês é uma bebida alcoólica que leva
+                        uísque creme batido em sua composição. Para fazer, use os seguintes ingredientes:</p>
+                    <p class="card-text text-sm mb-0 text-justify">
+                    <ul class="pl-4">
+                        <li>1 xícara de café forte preparado;</li>
+                        <li>Uma dose de uísque;</li>
+                        <li>1 colher (chá) de açúcar ou adoçante;</li>
+                        <li>1 colher (sopa) de chantilly.</li>
+                    </ul>
+                    </p>
+                    <p class="card-text text-sm mb-0 text-justify">O café irlandês é uma bebida alcoólica que leva
+                        uísque creme batido em sua composição. Para fazer, use os seguintes ingredientes:</p>
+                </div>
+            </div>
+            <div class="card row-md-3 row-sm-6">
+                <img class="card-img-top" src="imgs\types\submarino.PNG" alt="Imagem de capa do card Submarino">
+                <p class="card-text text-right pr-2 mb-0"><small class="text-muted">Fonte: kreinick/iStock</small></p>
+                <div class="card-body">
+                    <h3 class="card-title"><strong>Submarino</strong></h3>
+                    <p class="card-text text-sm mb-0 text-justify">O submarino é um dos tipos de café mais fáceis de
+                        fazer. Tudo de que você vai precisar é:</p>
+                    <p class="card-text text-sm mb-0 text-justify">
+                    <ul class="pl-4">
+                        <li>1 colher (sopa) de pó de café solúvel;</li>
+                        <li>1 xícara de leite quente;</li>
+                        <li>1 tablete médio de chocolate;</li>
+                        <li>Espuma de leite ou chantilly.</li>
+                    </ul>
+                    </p>
+                    <p class="card-text text-sm mb-0 text-justify">Primeiro comece picando uma parte do tablete de
+                        chocolate e reserve em seguida. Coloque a outra parte do tablete dentro de uma xícara ou caneca.
+                        Junte o pó de café solúvel ao leite quente e, em seguida, despeje na xícara com o tablete de
+                        chocolate. Adicione a espuma de leite ou chantilly e salpique o chocolate picado por cima.</p>
+                </div>
+            </div>
+            <div class="card row-md-3 row-sm-6">
+                <img class="card-img-top" src="imgs\types\mocaccino.PNG" alt="Imagem de capa do card Mocha (ou mocaccino)">
+                <p class="card-text text-right pr-2 mb-0"><small class="text-muted">Fonte: Mizina/iStock</small></p>
+                <div class="card-body">
+                    <h3 class="card-title"><strong>Mocha (ou mocaccino)</strong></h3>
+                    <p class="card-text text-sm mb-0 text-justify">Essa mistura de café pode ser servida de modo
+                        trifásico ou em uma mistura única. Seus ingredientes são:</p>
+                    <p class="card-text text-sm mb-0 text-justify">
+                    <ul class="pl-4">
+                        <li>1 colher (sopa) de pó de café solúvel;</li>
+                        <li>1 xícara de leite quente;</li>
+                        <li>1 tablete médio de chocolate;</li>
+                        <li>Espuma de leite ou chantilly.</li>
+                    </ul>
+                    </p>
+                    <p class="card-text text-sm mb-0 text-justify">Para o café trifásico, despeje o café expresso
+                        primeiro em um copo. Em seguida, a calda de chocolate, e o leite vaporizado por cima. Não
+                        misture nada, adicione apenas o chantilly por cima e sirva em seguida. Mas também é possível
+                        servir como uma mistura homogênea com os mesmos ingredientes, adicionando o chantilly por cima
+                        da mesma forma.</p>
+                </div>
+            </div>
+            <div class="card row-md-3 row-sm-6">
+                <img class="card-img-top" src="imgs\types\caramelo_macchiato.PNG" alt="Imagem de capa do card Caramelo macchiato">
+                <p class="card-text text-right pr-2 mb-0"><small class="text-muted">Fonte: kittimages/iStock</small></p>
+                <div class="card-body">
+                    <h3 class="card-title"><strong>Caramelo macchiato</strong></h3>
+                    <p class="card-text text-sm mb-0 text-justify">O caramelo macchiato é uma variação de macchiato
+                        quente muito servida em uma das cafeterias mais famosas do mundo, a Starbucks. Para prepará-lo,
+                        basta ter os seguintes ingredientes:</p>
+                    <p class="card-text text-sm mb-0 text-justify">
+                    <ul class="pl-4">
+                        <li>130 ml de café expresso preparado;</li>
+                        <li>1 colher (chá) de extrato de baunilha;</li>
+                        <li>2 colheres (sopa) de calda de caramelo;</li>
+                        <li>250 ml de leite integral.</li>
+                    </ul>
+                    </p>
+                    <p class="card-text text-sm mb-0 text-justify">Misture bem a calda de caramelo ao café expresso em
+                        uma xícara. Acrescente em seguida o extrato de baunilha e misture novamente. Vaporize o leite
+                        para conseguir a espuma, e misture na xícara em seguida. Coloque chantilly por cima, se desejar.
+                    </p>
+                </div>
+            </div>
+            <div class="card row-md-3 row-sm-6">
+                <img class="card-img-top" src="imgs\types\licor_de_cafe.PNG" alt="Imagem de capa do card Licor de café">
+                <p class="card-text text-right pr-2 mb-0"><small class="text-muted">Fonte: AnjelaGr/iStock</small></p>
+                <div class="card-body">
+                    <h3 class="card-title"><strong>Licor de café</strong></h3>
+                    <p class="card-text text-sm mb-0 text-justify">Se você gosta da mistura de café com álcool, como em
+                        algumas receitas anteriores, essa é para você: o licor de café é uma receita rápida que pode ser
+                        feita em poucos minutos, e ainda servir como base para outros tipos de preparação de drinks à
+                        base de café. Veja do que você precisa para fazer:</p>
+                    <p class="card-text text-sm mb-0 text-justify">
+                    <ul class="pl-4">
+                        <li>1/2 lata de leite condensado;</li>
+                        <li>50 ml de vodca ou cachaça;</li>
+                        <li>150 g de café em pó solúvel;</li>
+                        <li>5 gotas de essência de baunilha.</li>
+                    </ul>
+                    </p>
+                    <p class="card-text text-sm mb-0 text-justify">Bata a cachaça ou a vodca em um liquidificador junto
+                        com o pó de café forte. Adicione em seguida o leite condensado e a essência de baunilha e bata
+                        novamente até que a mistura fique homogênea. É possível servir a bebida gelada ou em temperatura
+                        ambiente.</p>
+                </div>
+            </div>
+            <div class="card row-md-3 row-sm-6">
+                <img class="card-img-top" src="imgs\types\amarreto.PNG" alt="Imagem de capa do card Amaretto">
+                <p class="card-text text-right pr-2 mb-0"><small class="text-muted">Fonte: bhofack2/iStock</small></p>
+                <div class="card-body">
+                    <h3 class="card-title"><strong>Amaretto</strong></h3>
+                    <p class="card-text text-sm mb-0 text-justify">Mais um drink alcoólico que leva café: o diferencial
+                        do Amaretto é o licor do mesmo nome e também licor de café, visto anteriormente. Apenas misture
+                        os dois em uma xícara e cubra com chantilly, se preferir.</p>
+                </div>
+            </div>
+            <div class="card row-md-3 row-sm-6">
+                <img class="card-img-top" src="imgs\types\quitabrio.PNG" alt="Imagem de capa do card Quitafrio">
+                <p class="card-text text-right pr-2 mb-0"><small class="text-muted">Fonte: Chalongrat
+                        Chuvaree/iStock</small></p>
+                <div class="card-body">
+                    <h3 class="card-title"><strong>Quitafrio</strong></h3>
+                    <p class="card-text text-sm mb-0 text-justify">Quer assustar o frio? Então o quitafrio é outra ótima
+                        opção. Esse café é preparado com mel e especiarias, além de doses de uísque ou rum. Veja os
+                        ingredientes:</p>
+                    <p class="card-text text-sm mb-0 text-justify">
+                    <ul class="pl-4">
+                        <li>1/2 xícara de café forte ou expresso;</li>
+                        <li>1/2 xícara de leite;</li>
+                        <li>1 dose de uísque ou rum;</li>
+                        <li>1 colher (sopa) de mel;</li>
+                        <li>1 canela;</li>
+                        <li>1 noz-moscada.</li>
+                    </ul>
+                    </p>
+                    <p class="card-text text-sm mb-0 text-justify">Misture bem o café, o leite, o uísque ou o rim e o
+                        mel em uma xícara ou, antes, em um liquidificador, até atingir uma consistência homogênea.
+                        Polvilhe em seguida com a canela e a noz-moscada e sirva.</p>
+                </div>
+            </div>
+            <div class="card row-md-3 row-sm-6">
+                <img class="card-img-top" src="imgs\types\expresso_panna.PNG" alt="Imagem de capa do card Expresso panna">
+                <p class="card-text text-right pr-2 mb-0"><small class="text-muted">Fonte:
+                        Tiphaine_Buccino/iStock</small></p>
+                <div class="card-body">
+                    <h3 class="card-title"><strong>Expresso panna</strong></h3>
+                    <p class="card-text text-sm mb-0 text-justify">O panna é um tipo de café muito simples: ele é um
+                        expresso levemente adoçado com creme de leite batido ou chantilly. Para fazer em casa, prepare
+                        duas xícaras de café expresso e adicione um dos dois ingredientes acima sobre a bebida. Você
+                        também pode salpicar canela sobre o chantilly ou o creme de leite.</p>
+                </div>
+            </div>
+            <div class="card row-md-3 row-sm-6">
+                <img class="card-img-top" src="imgs\types\cafe_arabe.PNG" alt="Imagem de capa do card Café árabe">
+                <p class="card-text text-right pr-2 mb-0"><small class="text-muted">Fonte: denizbayram/iStock</small>
+                </p>
+                <div class="card-body">
+                    <h3 class="card-title"><strong>Café árabe</strong></h3>
+                    <p class="card-text text-sm mb-0 text-justify">O café árabe se distingue pelo seu preparo. Ele é
+                        obtido através de um pó bem moído e fino de café.</p>
+                    <p class="card-text text-sm mb-0 text-justify">Misture 5 colheres (chá) de pó de café (se preferir o
+                        comum, certifique-se de que está bem fino) a 5 xícaras de água fria (ou a quantidade que
+                        desejar) em um recipiente com cabo, como uma panela, e leve ao fogo baixo.</p>
+                    <p class="card-text text-sm mb-0 text-justify">Deixe que a água ferva pela primeira vez, e misture
+                        em sentido horário até que ela perca um pouco da temperatura. Em seguida, ponha a panela no fogo
+                        novamente.</p>
+                    <p class="card-text text-sm mb-0 text-justify">Repita o processo, só que, desta vez, ao retirar a
+                        panela quando a bebida voltar a ferver, mexa em sentido anti-horário. Ainda uma terceira vez,
+                        quando retirar novamente, mexa em sentido horário. Se preferir, adicione uma colher (sopa) de
+                        água fria para assentar o pó e sirva em seguida.</p>
+                </div>
+            </div>
+            <div class="card row-md-3 row-sm-6">
+                <img class="card-img-top" src="imgs\types\breve.PNG" alt="Imagem de capa do card Breve">
+                <p class="card-text text-right pr-2 mb-0"><small class="text-muted">Fonte: Angela Kotsell/iStock</small>
+                </p>
+                <div class="card-body">
+                    <h3 class="card-title"><strong>Breve</strong></h3>
+                    <p class="card-text text-sm mb-0 text-justify">O café breve se distingue por levar duas camadas de
+                        leite e espuma na mesma quantidade. Para prepará-lo, basta adicionar ao café expresso meia parte
+                        de leite e meia parte (igual) de espuma de leite.</p>
+                </div>
+            </div>
+            <div class="card row-md-3 row-sm-6">
+                <img class="card-img-top" src="imgs\types\havaiano.PNG" alt="Imagem de capa do card Havaiano">
+                <p class="card-text text-right pr-2 mb-0"><small class="text-muted">Fonte: Reprodução/Internet</small>
+                </p>
+                <div class="card-body">
+                    <h3 class="card-title"><strong>Havaiano</strong></h3>
+                    <p class="card-text text-sm mb-0 text-justify">Se você gosta de tipos de cafés diferentes, o
+                        havaiano é a sua próxima escolha! A principal diferença está no uso de leite de coco em sua
+                        composição, e na decoração bem característica. Veja os ingredientes:</p>
+                    <p class="card-text text-sm mb-0 text-justify">
+                    <ul class="pl-4">
+                        <li>1 xícara de café coado;</li>
+                        <li>coco queimado ou fresco;</li>
+                        <li>1/2 xícara de leite de coco;</li>
+                        <li>1/2 de leite integral;</li>
+                        <li>óleo de coco ou manteiga;</li>
+                        <li>açúcar ou adoçante a gosto.</li>
+                    </ul>
+                    </p>
+                    <p class="card-text text-sm mb-0 text-justify">Em um recipiente, misture o leite de coco ao café
+                        coado e ferva em fogo baixo. Adoce a gosto. No copo em que pretende servir a bebida, passe óleo
+                        de coco ou manteiga na borda. Espalhe o coco queimado ou fresco em um recipiente e role a borda
+                        do copo para que o coco grude. Adicione a bebida preparada anteriormente e sirva.</p>
+                </div>
+            </div>
+            <div class="card row-md-3 row-sm-6">
+                <img class="card-img-top" src="imgs\types\cremoso.PNG" alt="Imagem de capa do card Cremoso">
+                <p class="card-text text-right pr-2 mb-0"><small class="text-muted">Fonte: nortonrsx/iStock</small></p>
+                <div class="card-body">
+                    <h3 class="card-title"><strong>Cremoso</strong></h3>
+                    <p class="card-text text-sm mb-0 text-justify">Para espantar o frio, o café cremoso é um aliado
+                        indispensável — e muito saboroso! Você vai precisar de:</p>
+                    <p class="card-text text-sm mb-0 text-justify">
+                    <ul class="pl-4">
+                        <li>100 g de café solúvel;</li>
+                        <li>4 colheres (sopa) de chocolate em pó;</li>
+                        <li>Açúcar ou adoçante a gosto;</li>
+                        <li>1 xícara de leite quente.</li>
+                    </ul>
+                    </p>
+                    <p class="card-text text-sm mb-0 text-justify">Misture os pós de café e chocolate na xícara em que
+                        deseja servir o café. Bata até que a mistura fique bem fina e fofa. Adicione, então, o leite
+                        quente e misture bem novamente.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <div class="container-fluid">
+            <div class="row d-flex flex-row px-4 mx-4">
+                <div class="no-padding col-lg-4 col-md-12 col-xs-12 d-flex justify-content-around"> <!-- Form -->
+                    <div class="form-bg">
+                        <form id="form">
+                            <input type="text" class="name" name="name" placeholder="NAME" required /><br />
+                            <input type="text" class="email" name="phone" placeholder="EMAIL" required /><br />
+                            <textarea <input type="text" class="msg" name="text" placeholder="MESSAGE" required></textarea>
+                            <button type="button" class="btn" data-toggle="modal" data-target="#exampleModal"><strong>SEND MESSAGE</strong></button>
+                        </form>
+                    </div>
+                </div>
+                <div class="no-padding col-lg-3 col-md-12 col-xs-12"> <!-- Contact -->
+                    <div>
+                        <p cor><strong>PHONE:</strong></p>
+                        <p><i class="fa fa-phone" aria-hidden="true"></i> +55 (79) 99920-8615</p>
+                        <p cor><strong>EMAIL:</strong></p>
+                        <p><i class="fa fa-envelope" aria-hidden="true"></i> tiago.farias@dcomp.ufs.br</p>
+                        <p cor><strong>ADDRESS:</strong></p>
+                        <p><i class="fa fa-map-marker" aria-hidden="true"></i> BRAZIL | Aracaju - State of Sergipe</p>
+                        <p cor><strong>PROJECT REPOSITORY:</strong></p>
+                        <p><i class="fab fa-github" aria-hidden="true"></i><a target="_blank" href="https://github.com/Phewrys/Coffee-Shop"> Coffee Shop</a></p>
+                    </div>
+                </div>
+                <div class="no-padding col-lg-5 col-md-12 col-xs-12"> <!-- Google Maps -->
+                    <div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15668.827146691014!2d-37.080939260037376!3d-10.947746562927097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71ab04015be27cd%3A0x804434fd92ec3b36!2sAracaju%2C%20State%20of%20Sergipe!5e0!3m2!1sen!2sbr!4v1594557987523!5m2!1sen!2sbr"
+                            width="100%" height="300" frameborder="0" allowfullscreen=""
+                            aria-hidden="false" tabindex="0">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <div id="modal" class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Aviso:</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Botão <strong>Meramente Ilustrativo</strong>!</p>
+                    <p>Para mandar mensagem, favor utilizar E-mail <strong>tiago.farias@dcomp.ufs.br</strong> ou
+                        WhatsApp <strong>+55 (79) 99920-8615.</strong></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn" data-dismiss="modal"><strong>Close</strong></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="whatsapp">
+        <a target="_blank" href="https://wa.me/5579999208615">
+            <span whatsApp class="icon fab fa-whatsapp fa-3x"></span>
+        </a>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-xs-12 pt-2">
+                    <h4>Copyright &copy; 2020 by Phewrys. All rights reserved.</h4>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scroll.js"></script>
+</body>
+</html>

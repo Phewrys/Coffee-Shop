@@ -1,0 +1,313 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #2f263c;
+    color: #d2cbe4;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Luckiest Guy', cursive;
+    text-transform: uppercase;
+    font-weight: bolder;
+    line-height: 100px;
+    padding-top: 25px;
+}
+
+h3 {
+    color: #ff6b81;
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+/* Header */
+section#header {
+    height: 70px;
+    margin-top: 0px;
+    position: sticky;
+    top:0;
+    left: 0;
+    z-index: 1000;
+    font-family: inherit;
+    background-color: #1c1428;
+}
+
+#divLogo {
+    padding-right: 2px;
+    padding-left: 40px;
+    overflow: hidden;
+}
+
+#imgLogo {
+    filter: invert(1);
+    width: 50px;
+    height: 40px;
+}
+
+#spanLogo {
+    position: fixed;
+    top: 45px;
+    left: 40px;
+}
+
+#logo {
+    top: 5px;
+    position: fixed;
+    left: 70px;
+    font-weight: bolder;
+}
+
+section#header a {
+    color: #d2cbe4;
+    font-weight: bold;
+}
+
+.navbar-toggler:not(:disabled):not(.disabled) {
+    border-color: #d2cbe4;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: none;
+}
+
+#button {
+    margin-top: 7px;
+}
+
+[menuShow] {
+    margin-top: 0;
+    color: #ff6b81;
+    border: 5px solid transparent;
+    
+}
+
+[menuShow] > ul > li > a:hover {
+    font-size: 20px;
+}
+
+li a {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+li a:hover {
+    color: #ff6b81 !important;
+    text-shadow: 5px 5px 50px rgba(230, 5, 5, 0.9) !important;
+    box-shadow: 5px 5px 50px rgba(0,0,0,0.9) !important;
+    font-size: 16.1px;
+}
+
+/* Home */
+section#home img {
+    max-height: 600px;
+}
+
+/* About */
+section#about {
+    background-color: #281e36;
+}
+
+/* Types */
+section#types img {
+    max-height: 200px;
+}
+
+section#types {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+
+section#types .tPai {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 10px 10px;
+    overflow: auto;
+    overflow-x: hidden;
+    margin-top: 30px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.card {
+    background: #281e36;
+    border: 1px solid hsla(0,0%,100%,.05);
+    border-radius: 10px;
+}
+
+/* Contact */
+section#contact {
+    background-color: #281e36;
+}
+
+[cor] {
+    color: #ff6b81;
+}
+
+.btn {
+    background: #1c1428 !important;
+    color: #ff6b81 !important;
+}
+
+.btn:hover {
+    color: #ff6b81 !important;
+    text-shadow: 5px 5px 50px rgba(230, 5, 5, 0.9) !important;
+    box-shadow: 5px 5px 50px rgba(0,0,0,0.9) !important;
+}
+
+#form {
+    margin-top: 2px;
+    margin-bottom: 20px;
+}
+
+form,
+textarea {
+    margin: 0;
+}
+
+.form-bg .name {
+    width: 100%;
+    height: 40px;
+    padding: 15px 15px;
+    border: 0;
+    font-size: 10pt;
+    font-weight: 700;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+input,
+textarea {
+    line-height: normal;
+}
+
+input {
+    margin: 0;
+    vertical-align: baseline;
+}
+
+input,
+textarea {
+    font-family: sans-serif;
+}
+
+input {
+    overflow: visible;
+}
+
+.form-bg .email {
+    margin-top: 30px;
+    width: 100%;
+    height: 40px;
+    padding: 15px 15px;
+    border: 0;
+    font-size: 10pt;
+    font-weight: 700;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+.form-bg .msg {
+    margin-top: 30px;
+    width: 100%;
+    height: 130px;
+    padding: 15px 15px;
+    border: 0;
+    font-size: 10pt;
+    font-weight: 700;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.form-bg .btn {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 10pt;
+    letter-spacing: 2pt;
+    color: #1b1b1b;
+    background-color: #fff;
+    border-radius: 0px;
+    padding: 15px 40px;
+    margin-top: 30px;
+}
+
+button:not(:disabled) {
+    cursor: pointer;
+}
+
+.btn {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    line-height: 1.5;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+button {
+    -webkit-appearance: button;
+    margin: 0;
+    overflow: visible;
+}
+
+/* Modal */
+.modal-content {
+    background: #281e36;
+}
+
+/* WhatsApp */
+#whatsapp {
+    position: fixed;
+    z-index: 10000;
+    bottom: 40px;
+    right: 40px;
+    border-radius: 50;
+    text-decoration: none;
+}
+
+[whatsApp] {
+    border-radius: 50%;
+    text-decoration: none;
+    color: #4dc247;
+}
+
+[whatsApp]:hover {
+    box-shadow: 5px 5px 50px #4dc247 !important;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #1c1428;
+    padding: 25px 0;
+    color: #9479b9;
+}
+
+footer h4 {
+    color: rgb(148, 121, 185);
+    font-size: 16px;
+}
